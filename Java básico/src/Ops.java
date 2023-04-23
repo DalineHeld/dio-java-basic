@@ -21,6 +21,7 @@ public class Ops {
 
         concatenacao = "1"+(1+1+1);
         System.out.println(concatenacao);
-
+        //depois que reconhece o primeiro como caractere, para reconhecer como in tem que colocar entre parênteses
+        
     }
 }
