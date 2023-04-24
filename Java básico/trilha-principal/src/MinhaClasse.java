@@ -1,6 +1,7 @@
 public class MinhaClasse {
 //nome da classe deve sempre começar com maiúscula, e se for palavra composta, a segunda palavra tbm começa com maiúscula
 
+
     public static void main (String [] args) {
 
         System.out.println("Olá! Bora testar!");

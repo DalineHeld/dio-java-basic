@@ -11,6 +11,7 @@ public class Fatorial {
 
         for (int i = fat; i >= 1; i--) {
             mult = mult*i;
+            
         }
 
         sc.close();

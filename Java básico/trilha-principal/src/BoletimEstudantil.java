@@ -8,5 +8,7 @@ public class BoletimEstudantil {
         else
             System.out.println("APROVADO"); 
     }
+
+    
 }
 //o comum é se usar de 4 a 6 indentações. Mais que isso, fica difícil a leitura, revisar a lógica.
