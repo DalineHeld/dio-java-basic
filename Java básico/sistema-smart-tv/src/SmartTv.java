@@ -3,6 +3,7 @@ public class SmartTv {
     int canal = 1;
     int volume = 15;
     //configurações de origem
+    //variáveis de classe
 
     public void ligar() {
         ligada = true;
@@ -37,6 +38,8 @@ public class SmartTv {
     public void mudarCanal (int novoCanal) {
         canal = novoCanal;
     }
+    // a variável novoCanal é de método, não pode ser usada fora 
+    //desse bloco, desse escopo 
 
 
 }
