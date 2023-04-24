@@ -21,7 +21,9 @@ public class Usuario {
        smartTv.abaixarVolume();
        System.out.println("Novo volume: " + smartTv.volume);
 
-
+        smartTv.mudarCanal(5);
+        smartTv.mudarCanal(27);
+        System.out.println("Novo canal: " + smartTv.canal);
 
     }
 }
