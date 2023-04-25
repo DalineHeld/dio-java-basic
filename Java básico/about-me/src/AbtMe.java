@@ -5,8 +5,9 @@ public class AbtMe {
     public static void main(String[] args) {
         //criando o objeto scanner
         Scanner sc = new Scanner(System.in).useLocale(Locale.US); //convenção americana
+        //na conv americana, a altura tem q ter ponto, se não, ele coloca .0
         
-        System.out.println("Digite seu nome:");
+        System.out.println("Digite seu nome:"); //aparece na hora de digitar
         String nome = sc.next();
         
         System.out.println("Digite seu sobrenome:");
