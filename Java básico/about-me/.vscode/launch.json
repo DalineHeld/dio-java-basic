@@ -6,11 +6,23 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AbtMe",
+            "request": "launch",
+            "mainClass": "AbtMe",
+            "projectName": "about-me_abc727d0"
+        },
+        {
+            "type": "java",
             "name": "AboutMe",
             "request": "launch",
             "mainClass": "AboutMe",
-            "args": [ "DALINE", "HELD", "34", "1.62"]
-        },  
+            "args": [
+                "DALINE",
+                "HELD",
+                "34",
+                "1.62"
+            ]
+        },
         {
             "type": "java",
             "name": "Current File",
