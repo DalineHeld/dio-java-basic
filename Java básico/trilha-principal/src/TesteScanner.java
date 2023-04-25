@@ -2,7 +2,6 @@
 import java.util.Scanner;
 
 public class TesteScanner {
-    
     public static void main (String[] args) {
          //código das primeiras aulas:
          Scanner leitor = new Scanner(System.in);
