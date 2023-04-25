@@ -11,6 +11,5 @@ public class Métodos {
     //qdo um método tem mtos parâmetro, criar um objeto
     //com todos os parâmetros e passar o objeto como parâmetro.
 
-    
 }
 

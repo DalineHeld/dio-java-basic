@@ -4,8 +4,7 @@ public class Ops {
         String nomeCompleto = ("Nome completo: " + "primeiroNome" + " " + "sobrenome");
         System.out.println(nomeCompleto);
     
-
-
+        
         String concatenacao ="?"; 
 
         concatenacao = 1+1+1+"1";
