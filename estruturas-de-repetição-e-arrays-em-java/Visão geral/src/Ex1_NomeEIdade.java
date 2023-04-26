@@ -26,6 +26,9 @@ o primeiro representando o nome do aluno e o segundo representando a sua idade.
 
             System.out.println("Idade: ");
             idade = scan.nextInt();
+            if (idade == 0) { //coloquei essa linha pra usar a variável idade q tava dando erro, não erro, atenção, sei lá
+                break; 
+            } 
         }
 
         scan.close();
