@@ -25,7 +25,7 @@ public class Ex3_MaiorEMédia {
             contador++;
         } while (contador < 5);
 
-        media = (soma / 5);
+        media = (soma / 5); //poderia nem ter criado essa variável e colocado direto no print soma/5
 
         System.out.println("O maior número é: " + maior);
         System.out.println("A média entre esses números é: " + media);
