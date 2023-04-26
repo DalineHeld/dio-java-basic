@@ -31,6 +31,7 @@ public class Ex5_Tabuada {
         }
 
         sc.close();
+        //no Eclipse não se coloca acento no nome do arquivo.
     }
         
         
