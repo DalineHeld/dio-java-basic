@@ -20,7 +20,7 @@ public class Ex5_Tabuada {
         System.out.println("Tabuada: ");    
         int tabuada = sc.nextInt();
 
-        while ((tabuada<=0) || (tabuada>100)) {
+        while ((tabuada<0) || (tabuada>100)) {
             System.out.println("Número inválido. Escolha entre 1 e 100: ");
             tabuada = sc.nextInt();
             }
