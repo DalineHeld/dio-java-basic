@@ -34,7 +34,7 @@ public class Ex6_Fatorial {
 
         int multiplicacao = 1;
 
-        System.out.print(fatorial +"! = ");
+        System.out.print(fatorial +"! = "); //aqui é print sem o ln, pra continuar na mesma linha.
         for(int i = fatorial ; i >= 1 ; i --) {
             multiplicacao = multiplicacao * i;
         }
