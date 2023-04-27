@@ -21,11 +21,14 @@ public class Anotações {
          *      pós-fixados: numero--;   é igual a  (retorne numero); numero = numero - 1; 
          * 
          * -- Array: objeto utilizado para armazenar sequencialmente dados do mesmo tipo.
+         *      (muito utilizado em coleções, principalmente do tipo list)
+         *      (é um vetor)
          *      - permanecem do mesmo tamanho depois de criados
          *      - unidimencional: nome do array[posição começa do 0]
          *      - multidimencional: nome do array[numero da linha do 0] [numero da coluna do 0]
-         * 
          */
+
+
 
 
     }
