@@ -34,9 +34,13 @@ public class Ex2_Array_Consoantes {
 
         System.out.print("Consoantes: ");
         for (String consoante : consoantes) { //Para cada consoante (variável criada agora) do(:) array (tal)
-            System.out.print(consoante + " ");
+            if (consoante != null) {
+                System.out.print(consoante + " ");
+            }
+
+            
         }        
-        System.out.println(" ");
+        System.out.println("\nNúmero de consoantes: " + numeroDeConsoantes);
 
         sc.close();
     }   
