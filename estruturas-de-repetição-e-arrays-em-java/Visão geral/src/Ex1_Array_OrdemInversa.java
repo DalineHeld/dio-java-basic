@@ -18,28 +18,27 @@ public class Ex1_Array_OrdemInversa {
        
         int contador = 0;
 
+        System.out.print("Vetor: ");
         while (contador < (vetor.length)) {
-            System.out.println(vetor[contador]);
+            System.out.print(vetor[contador] + " ");
             contador++;
         }
         
-
-        int cont = 5;
-        while (cont >= (vetor.length-6)) {
-            System.out.println(vetor[cont]);
-            cont--;
-        }
+        System.out.print("\nVetor inverso: ");
+        for (int count = (vetor.length-1); count >= 0; count--) {
+            System.out.print(vetor[count] + " ");
+       }
         
 
         int[] vetorMeu = {1, 2, 3, 4, 5, 6}; //elementos 6, se fosse criar, seria new int[6]
 
         int contadorPosição = 5; //posição vai de 0 a 5
-
+        System.out.print("\nVetor meu: ");
         while (contadorPosição >= (vetorMeu.length - 6)) {
-            System.out.println(vetorMeu[contadorPosição]);
+            System.out.print(vetorMeu[contadorPosição] + " ");
             contadorPosição--;
         }
-
+        System.out.println(" ");
 
 
        
