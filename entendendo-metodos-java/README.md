@@ -89,5 +89,16 @@ valueOf (boolean b os tipos primitivos) retorna a representação em string do a
 Sobrecarga x sobrescrita:
 Sobrecarga mantém o nome e muda a lista de parâmetros, já sobrescrita tem a ver com orientação a objeto e herança.
 
+### Retorno:
 
+É uma estrutura de interrupção como o continue e o break.
 
+O método executa retorno quando:
+- completa todas suas instruções
+- chega a uma declaração explícita de retorno
+- lança uma exceção (quase um erro)
+
+Considerações:
+- o tipo de retorno do método é definido na sua criação e pode ser um tipo primitivo ou um objeto;
+- o tipo de dado do return deve ser compatível com o do método;
+- se o método for sem return (void), pode ou não ter um "return" para encerrar sua execução (mas não pode retornar um tipo, é só "return" sem mais nada).
