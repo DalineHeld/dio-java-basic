@@ -15,10 +15,10 @@ public class Quadrilatero {
 
     public static void xpto() {
         System.out.println("Antes");
-        return;
+        return; //sem sentido, mas possível, se tiver um if, faz mas sentido para interromper a exec
     }
 
     public static double abc() {
-        return 1.6;
+        return 1.6; 
     }
 }
